@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tonyskn/node-redis-timeseries.git"
+    "url": "git://github.com/lambdacrash/node-redis-timeseries.git"
   },
   "keywords": [
     "Redis",
@@ -20,10 +20,10 @@
   "author": "Tony Sokhon",
   "license": "MIT",
   "peerDependencies": {
-    "redis": "2.6.x"
+    "redis": "^2.6.0-1"
   },
   "devDependencies": {
-    "redis": "0.x",
+    "redis": "^2.6.0-1",
     "hiredis": "0.x",
     "async": "~0.2.10",
     "vows": "~0.7.0"
